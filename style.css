@@ -1,0 +1,253 @@
+html,
+body,
+ul {
+  padding: 0;
+  margin: 0;
+}
+/* *home-section */
+.home-section {
+  background-image: url(./img/main-screen__bgc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+/* !container */
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+/* !header */
+.header {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 180px;
+}
+
+/** list */
+.header-list {
+  display: flex;
+  list-style: none;
+}
+/* *header-list-item */
+.header-list_item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 55px;
+  cursor: pointer;
+}
+/* *header-btn */
+.header-btn {
+  background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  gap: 10px;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+.home-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  color: #ffffff;
+}
+/* *counter */
+.counter-item {
+  margin-right: 10px;
+}
+/* !about-us */
+.about-us {
+  background: #121212;
+  padding: 200px 0 100px 0;
+}
+.about-us-wrapper {
+  display: flex;
+}
+.about-img {
+  margin-right: 100px;
+}
+.about-us-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+}
+.about-us-subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+}
+/* !text-container */
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+/* !jobs */
+.jobs {
+  background-color: #121212;
+  padding: 100px 0;
+}
+.jobs-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 100px;
+}
+/* !advantages */
+.advantages-block {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.advant-card-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.advant-card-subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.card-img {
+  width: 100px;
+  height: 100px;
+}
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* !partners */
+.partners {
+  padding: 90px;
+  background-color: #121212;
+}
+.partners-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+}
+.img-partner {
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.msi-partner {
+  display: flex;
+}
+/* !mentors */
+.mentors {
+  padding: 90px;
+  background-color: #121212;
+}
+.mentor-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 70px;
+}
+
+.teachers-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+}
+.mentor-card {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.teacher-photo {
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
+}
+.mentor-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 9px;
+}
+.sub-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #ffffff;
+
+  opacity: 0.8;
+}
+/* !footer */
+.footer {
+  background-color: #121212;
+  padding: 70px;
+}
+.footer-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+.footer-subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.footer-link {
+  margin-right: 20px;
+}
